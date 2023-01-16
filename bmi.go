@@ -24,9 +24,9 @@ func main() {
     var weight float64
     var height float64
     
-    fmt.Println("Enter your weight: ")
+    fmt.Println("Enter your weight (in kgs): ")
     fmt.Scan(&weight)
-    fmt.Println("Enter your height: ")
+    fmt.Println("Enter your height (in meters): ")
     fmt.Scan(&height)
     
     bmi, classification := bmi(weight, height)
