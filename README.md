@@ -1,2 +1,2 @@
 # BMI Calculator
-Body Mass Index calculator
+Calculate your BMI and get a classification of either Overweight, Normal, Overweight or Obese. 
