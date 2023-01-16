@@ -5,7 +5,7 @@ import (
     "math"
 )
 
-func bmi(weight, height float64) (float64, string) {
+func bmi(weight float64, height float64) (float64, string) {
     bmi := math.Round(weight / (height * height) * 100) / 100
     var classification string
     if bmi < 18.5 {
